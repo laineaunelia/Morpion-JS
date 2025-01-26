@@ -1,14 +1,3 @@
-/*Nous allons maintenant développer le jeu du morpion.
-
-Un fichier HTML et un fichier CSS sont fourni pour la mise en oeuvre de l’exercice.
-
-- Chaque cellule doit être cliquable et doit afficher le symbole du joueur (X ou O) lorsqu'elle est cliquée.
-- Définissez deux joueurs : X et O.
-- Les joueurs doivent alterner à chaque coup.
-- Affichez le joueur actuel à chaque tour. (C’est à X de jouer)
-- Lorsqu'un joueur gagne ou qu'il y a un match nul, affichez un message approprié et réinitialisez le jeu.*/
-
-
 let board = ['', '', '', '', '', '', '', '', ''];
 let playerPlays = "X"; 
 
