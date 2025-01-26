@@ -1,0 +1,45 @@
+body {
+    background-image: url(./images/fondecran.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#board {
+    backdrop-filter: blur(25px);
+    width: 306px;
+    height: 306px;
+    margin: 0 auto;
+    border: 5px solid #d5d5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mess , h1 {
+    color: #dfdfdf;
+    text-align: center;
+}
+
+.cell {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    border: 3px solid #dfdfdf;
+    margin:auto;
+}
+
+.cell:hover {
+    background-color: #dfdfdf;
+}
+
+.playerX {
+    color: #90c0fe;
+}
+
+.playerO {
+    color: #f18080;
+}
